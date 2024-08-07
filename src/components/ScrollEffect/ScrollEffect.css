@@ -1,0 +1,102 @@
+.scroll-effect{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.scroll-box{
+    width: 90%;
+    display: flex;
+    
+    justify-content: center;
+    gap: 2vw;
+}
+.con1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    background-color:#265AA5 ;
+    color: white;
+    padding: 20px 20px 20px 30px ;
+
+    border-radius: 2vw;
+   
+    border-radius: 2vw;
+    width: 25vw;
+    display: flex;
+    font-size: 1.5vw;
+    flex-direction: column;
+    justify-content: space-around  ;
+}
+.div1{
+    display: flex;
+    gap: 2vw;
+}
+.con2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vw;
+    align-items: center;
+}
+.con2 img{
+    border-radius: 2vw;
+    width: 20vw;
+}
+.con3 img{
+    border-radius: 2vw;
+    width: 20vw;
+}
+.background button{
+
+    width: 10vw;
+
+    padding: 1vw;
+    border-radius: 50px;
+    border: hidden;
+    font-size: 1vw;
+    width: 12vw;
+    padding: .5vw;
+    border-radius: 50px;
+    border: hidden;
+    font-size: 1.5vw;
+    background-color: white;
+    transition: .3s;
+    bottom: 0px;
+    cursor: pointer;
+    color: #265AA5;
+}
+
+@media (max-width:768px) {
+    .background{
+        font-size: 3vw;
+        padding:4vw 8vw 14vw 8vw ;
+    height: 40vw;
+    width: 70vw;
+    border-radius: 4vw;
+    }
+    .background button{
+        width: 20vw;
+        padding: 8px;
+        font-size: 3vw;
+
+    }
+    
+    .scroll-box{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .con2 img{
+        width: 43vw;
+        border-radius: 4vw;
+    border-radius: 4vw;
+    }
+    .con3 img{
+        width: 43vw;
+        border-radius: 4vw; 
+    }
+}

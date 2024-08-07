@@ -1,0 +1,267 @@
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #265AA5;
+}
+.contact-con{
+    width: 90%;
+    padding-top: 8rem;
+    
+    
+}
+.contact-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-details-left{
+    width: 60%;
+    color: white;
+    font-size: 20px;
+    
+}
+.contact-details{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-details-right{
+    border-radius: 10px;
+    display: flex;
+    
+    flex-direction: column;
+    background-color: white;
+    padding: 2vw;
+    gap: 3vw;
+    width: 25vw;
+}
+.desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+}
+.contact-details-right input{
+    width: 20vw;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    border: hidden;
+    font-size: 14px;
+    outline: none;
+    box-shadow: 0 2px 10px gainsboro;
+    color: #265AA5;
+    border: 1px white solid;
+}
+.contact-details-right input:hover{
+    border: 1px #265AA5 solid;
+}
+.contact-details-right .description{
+    width: 20vw;
+    height: 8vw;
+    border-radius: 10px;
+    border: hidden;
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding: 10px;
+    outline: none;
+    color: #265AA5;
+    box-shadow: 0 2px 10px gainsboro;
+    scrollbar-width: none;
+    resize: none;
+    border: 1px white solid;
+}
+.contact-details-right .description:hover{
+    border: 1px #265AA5 solid;
+}
+.contact-details-right button{
+    background-color: #265AA5;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    font-size:18px;
+    border: hidden;
+    width: 10rem;
+}
+
+
+@media (max-width:768px) {
+    .contact-box{
+        flex-direction: column;
+        
+    }
+    .contact-details-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 18px;
+        width: 90%;
+    }
+    .contact-details-right{
+        width: 80vw;
+    }
+    .contact-details-right input{
+        width: 70vw;
+        height: 5vw;
+        
+    }
+    .contact-details-right .description{
+        width: 70vw;
+        height: 30vw;
+    }
+}
+
+/* .contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+.contact-con{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-details-left{
+    width: 30vw;
+    padding-left: 1rem;
+    color: white;
+}
+.contact-details-left h1{
+    font-size: 3rem;
+    color: white;
+}
+.contact-details-left p{
+    color: white;
+    font-size: 20px;
+}
+.contact-heading{
+    color: #265AA5;
+}
+.contact-box{
+    width: 100%;
+    display: flex;
+    background-color: #265AA5;
+    justify-content: center;
+    gap: 10vw;
+}
+.contact-details{
+    
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 10px;
+    box-shadow: inset 0 0 10px gainsboro;
+    
+}
+
+.contact-details-right .input{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    padding: 20px;
+}
+.contact-details-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    
+}
+.contact-details-right input{
+    width: 10vw;
+    height: 3vw;
+    border-radius: 30px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border: hidden;
+    font-size: 1vw;
+    outline: none;
+    box-shadow: 0 2px 10px gainsboro;
+    color: #265AA5;
+    border: 1px white solid;
+}
+.contact-details-right input:hover{
+    border: 1px #265AA5 solid;
+}
+.contact-details-right .description{
+    width: 30vw;
+    height: 8vw;
+    border-radius: 10px;
+    border: hidden;
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding: 10px;
+    outline: none;
+    color: #265AA5;
+    box-shadow: 0 2px 10px gainsboro;
+    scrollbar-width: none;
+    resize: none;
+    border: 1px white solid;
+}
+.contact-details-right .description:hover{
+    border: 1px #265AA5 solid;
+}
+.contact-details-right button{
+    background-color: #265AA5;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    font-size:18px;
+    border: hidden;
+    width: 10rem;
+}
+.contact-details-right .desc{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.icon {
+    display: flex;
+    gap: 10px;
+}
+.icon img{
+    width: 3rem;
+}
+
+@media (max-width:768px) {
+    .contact-details-left h1{
+        font-size: 1rem;
+        
+    }
+    .icon img{
+        width: 1.5rem;
+    }
+    .contact-details-right input{
+        width: 15vw;
+        font-size: 2vw;
+    }
+    .contact-details-right .description{
+        font-size: 10px;
+    }
+    .contact-details-right button{
+        width: 5rem;
+        font-size: 10px;
+    }
+    .contact-details-left p{
+        font-size: .8rem;
+    }
+} */

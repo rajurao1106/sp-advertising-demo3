@@ -1,0 +1,20 @@
+.choose-us{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.choose-us h1{
+    color:#265AA5;
+}
+.choose-us-con{
+    width: 60%;
+    box-shadow: 0 0 10px gainsboro;
+    padding: 20px;
+    border-radius: 10px;
+}
+.choose-us-con li{
+    color: gray;
+}

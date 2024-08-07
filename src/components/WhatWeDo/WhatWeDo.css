@@ -1,0 +1,76 @@
+.whatwedo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.whatwedo h1{
+    color:#265AA5;
+}
+.whatwedo-con{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.whatwedo-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    row-gap: 50px;
+    width: 90%;
+    gap: 50px;
+    border-radius: 0 0 5px 5px;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    background-color: #265AA5;
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+.wwd-box{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    box-shadow: 0 3px 10px rgb(211, 211, 211);
+    border-radius: 8px;
+    color: gray;
+}
+.banner{
+    width: 20rem;
+    height: 15rem;
+}
+.points{
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+}
+.heading h1{
+    color: white;
+}
+.points-box{
+    display: flex;
+    gap: 10px;
+    
+}
+.points-box p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.points-box img{
+    width: 1.5rem;
+}
+
+@media (max-width:768px) {
+    .points{
+        padding-left: 20px;
+      
+    }
+}
